@@ -1,0 +1,8 @@
+mysqli_real_escape_string : 
+
+Purpose->when you include user input or other external data in SQL querrirs , certain character in that datacan interfere with th e sql syntax.these char can potentially allow attacker to manipulate the sql query, leading to vulb
+
+How it works -> add backslash '\' before special characters for eg (') became '\'
+
+
+---------------------------------------------------------------------------------
